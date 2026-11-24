@@ -1,15 +1,16 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, get, set, child } from "firebase/database";
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAW1EgAmD77jKAiQQC4ywBiCsyo8qi432Y",
-  authDomain: "cebete-f7219.firebaseapp.com",
-  databaseURL: "https://cebete-f7219-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "cebete-f7219",
-  storageBucket: "cebete-f7219.firebasestorage.app",
-  messagingSenderId: "610541161818",
-  appId: "1:610541161818:web:b87362c8abacd10358b763",
-  measurementId: "G-Q1E8VNGVCN"
+  apiKey: "AIzaSyCULTFDEYPqc2khfBulr7XZUkc2tTNV7CQ",
+  authDomain: "cbt-bahasa-inggris.firebaseapp.com",
+  databaseURL: "https://cbt-bahasa-inggris-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "cbt-bahasa-inggris",
+  storageBucket: "cbt-bahasa-inggris.firebasestorage.app",
+  messagingSenderId: "351089060072",
+  appId: "1:351089060072:web:ffad4de045e1a546fe415d",
+  measurementId: "G-FSB93KMWJD"
 };
 const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);
